@@ -1,0 +1,18 @@
+#include "main.h"
+
+/**
+ * print_sign - detect if n is -, + or 0, printing the sing
+ * Return: sucess
+ */
+
+void print_numbers(void)
+{
+  int n;
+  {
+    for (n = '0'; n <= '9'; n++)
+      {
+	_putchar (n);
+      }
+    	_putchar ('\n');
+  }
+}

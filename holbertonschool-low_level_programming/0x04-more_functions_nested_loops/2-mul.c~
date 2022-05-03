@@ -1,0 +1,22 @@
+#include "main.h"
+
+/**
+ * int mul - function that multiplies two integers.
+ * @a: is one integer
+ * @b: is one integer
+ * Return: 1 if lowercase, 0 if not.
+ */
+
+int mul(int a, int b)
+{
+  int c;
+  {
+    c = a * b;
+    {
+      while (a < 9 || b < 9)
+	{
+	      return (c);
+	}
+    }
+  }
+}

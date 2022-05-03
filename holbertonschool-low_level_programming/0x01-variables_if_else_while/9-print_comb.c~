@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+/**
+ * main - generate number of base 10 from 0
+ * Return: Sucess
+ */
+
+int main(void)
+{
+
+int num;
+
+for (num = '0'; num <= '9'; num++)
+{
+putchar(num);
+if (num != '9')
+putchar (',');
+putchar (' ');
+}
+return (0);
+}
